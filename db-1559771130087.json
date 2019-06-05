@@ -9,22 +9,6 @@
       "dogName": "Lola",
       "dogBreed": "Giant Schnauzer",
       "id": 2
-    },
-    {
-      "dogName": "Winter",
-      "dogBreed": "English Shepherd",
-      "submit": "Submit",
-      "id": 3
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 4
-    },
-    {
-      "dogName": "Byron",
-      "dogBreed": "Poodle",
-      "id": 5
     }
   ],
   "cats": [
