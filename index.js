@@ -11,13 +11,7 @@ function submitData(name, email){
             email
         })
     })
-    .then(function(response){
-        return response.json()
-    })
-    .then(function(json){
-        document.body.innerHTML = json["id"]
-    })
-    .catch(function(error){
-        document.body.innerHTML = error.message
-    })
+    .then(response => response.json())
+    .then(json => document.body.innerHTML = json["id"])
+    .catch(error => document.body.innerHTML = error.message)
 }
